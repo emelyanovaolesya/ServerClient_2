@@ -28,4 +28,4 @@ async def tcp_echo_client(message):
     writer.close()
     await writer.wait_closed()
 
-asyncio.run(tcp_echo_client('Олеся Ем'))
+asyncio.run(tcp_echo_client('Client 1'))
